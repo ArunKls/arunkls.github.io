@@ -1,148 +1,118 @@
 {
     "projects" : [
         {
-            "image" : "images/projects/portfolio-poster.png",
-            "title": "Dev Portfolio",
-            "bodyText": "- Developer Portfolio Website made in React\n -  Fully customisable and dynamic, easily change data and images.\n - Dark Mode Support",
+            "image" : "images/projects/sociogram-poster.jpeg",
+            "title": "Sociogram -  A fast, scalable social media application",
+            "bodyText": "- A robust, high-performance social media platform emphasizing scalability, leveraging FastAPI’s asynchronous programming.\n - Secured with OAuth2 and JWT.\n - Made using **FastAPI** and **ReactJS** along with **MongoDB**, **Neo4J**, **S3**, **RabbitMQ**\n - deployed using **Kubernetes**.\n - Users can connect with, and view posts of other users.\n",
             "links": [
                 {
                     "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/dev-portfolio"
-                },
-                {
-                    "text": "Live",
-                    "href": "https://mayankagarwal.me"
-                }
-            ],
-            "tags" : [
-                "React",
-                "Portfolio",
-                "JavaScript"
-            ]
-        },
-        {
-            "image" : "images/projects/caaring-poster.png",
-            "title": "Caaring -  Cab Share App",
-            "bodyText": "- A Cab Sharing web app made using **Django** for **VIT** Students. People can create a new cab or request to join an existing cab.\n - Added User authentication and password reset using **SendGrid**.\n - Deployed on **heroku** using **gunicorn**.",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/Caaring"
-                },
-                {
-                    "text": "Live",
-                    "href": "http://caaring.herokuapp.com"
+                    "href": "https://github.com/arunkls/sociogram-frontend"
                 }
             ],
             "tags" : [
                 "Python",
-                "Django",
+                "FastAPI",
                 "BootStrap",
-                "SendGrid",
-                "Heroku",
-                "Gunicorn",
-                "VIT"
+                "ReactJS",
+                "Redis",
+                "RabbitMQ",
+                "Neo4J",
+                "MongoDB",
+                "S3"
             ]
         },
         {
-            "image" : "images/projects/quiet-hours-poster.jpg",
-            "title": "Quiet Hours App",
-            "bodyText": "- An Android App that **automatically silences** your phone during class hours, designed for **VITians**.\n - Option to select class **slots** and **custom time**.\n - Option to put on Vibrate instead of Silent.",
+            "image" : "images/projects/ethicate-poster.jpeg",
+            "title": "Ethicate - Issue blockchain secured certificates",
+            "bodyText": "- **Web3** based blockchain application for education institutions and employers to issue secure and immutable digital certificates.\n - Developed using **Ethereum**, **Python**, **Flask**",
             "links": [
                 {
                     "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/QuietHours-Android"
+                    "href": "https://github.com/arunkls/Ethicate"
+                },
+                {
+                    "text": "DevPost",
+                    "href": "https://devpost.com/software/ethicate-1q60zc"
                 }
             ],
             "tags" : [
-                "Java",
-                "Android",
-                "Alarm Manager",
-                "VIT"
+                "Python",
+                "Flask",
+                "NodeJS",
+                "ExpressJS",
+                "AngularJS",
+                "Ethereum",
+                "PostgreSQL(Aiven)"
             ]
         },
         {
-            "title": "Secure Chat App",
-            "bodyText": "- An Android App that allows users to send texts in real time.\n - End to End encryption using **RSA** Algorithm.\n - Uses **Firebase** database to store texts.\n - Secured with **Fingerprint** lock.",
+            "title": "Text based search engine",
+            "bodyText": "- Designed a high-performance, scalable search engine capable of indexing and swiftly retrieving queries from extensive documents with **constant time** efficiency",
             "links": [
                 {
                     "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/SecureChatApp"
+                    "href": "https://github.com/ArunKls/text-search-engine"
                 }
             ],
             "tags" : [
-                "Java",
-                "Android",
-                "Firebase",
-                "RSA"
+                "Python",
+                "Flask",
+                "Spark"
             ]
         },
         {
-            "title": "MVVM Sample App",
-            "bodyText": "- An Android App that loads data from mock API and show in both **LinearLayout** and **GridLayout RecyclerView**.\n - Offline support using **Room** DB and **NetworkBoundResource**.\n - Uses the **MVVM** architecture.",
+            "title": "FUSE File System",
+            "bodyText": "- A test file system that provides capabilities to CRUD files and folders on Linux volume.\n - Implemented a memory allocation algorithm 't_malloc' for faster memory allocation and garbage collection in C",
+            "tags" : [
+                "C",
+                "File System",
+                "OS",
+                "Memory Management"
+            ]
+        },
+        {
+            "title": "Debian Package statistics tracker",
+            "bodyText": "- A python CLI application to fetch the statistics for package file usages from debian installer contents files.\n - Scrapes information from debian package mirror to get architecture specific packages stats.\n - Used the power of asynchronous programming and multithreading to improve performance.",
             "links": [
                 {
                     "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/mvvm-sample-app"
+                    "href": "https://github.com/ArunKls/debian-package-stats"
                 }
             ],
             "tags" : [
-                "Kotlin",
-                "Android",
-                "MVVM",
-                "Room",
+                "Python",
+                "Web Scraping",
+                "Command Line Interface",
+                "Scripting",
                 "Coroutines",
-                "Flow",
-                "Hilt-Dagger",
-                "NetworkBoundResource"
+                "Asynchronous",
+                "Multithreading",
+                "Multiprocessing"
             ]
         },
         {
-            "title": "Feed List App",
-            "bodyText": "- An Android App that loads list of feeds from a **paginated** API and shows in a RecyclerView.\n - Uses the **MVVM** architecture.\n - Uses **Paging 3** library along with other Architecture Components.",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/Paginated-App-Feeds-List"
-                }
-            ],
+            "title": "Real time DoS attack detection and mitigation using Snort IDS",
+            "bodyText": "- Developed a tool by designing honeypot framework to detect and mitigate DoS attacks using Snort IDS.",
             "tags" : [
-                "Kotlin",
-                "Android",
-                "MVVM",
-                "Paging 3",
-                "Coroutines",
-                "Flow"
+                "Snort",
+                "IDS",
+                "Unix"
             ]
         },
         {
-            "title": "Task Tracker",
-            "bodyText": "- A simple Task Tracker web app made with **Angular 12**.\n - Uses **mock JSON server** to get, add, delete or update tasks.",
+            "title": "AppWall",
+            "bodyText": "- Created a tool to classify packet traffic generated by a smartphone in real-time to detect and identify the applications generating unsolicited network traffic with high accuracy.",
             "links": [
                 {
                     "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/task-tracker-app"
-                }
-            ],
-            "tags" : [
-                "TypeScript",
-                "Angular 12",
-                "JavaScript"
-            ]
-        },
-        {
-            "title": "Image Encryption/Decryption",
-            "bodyText": "- A Web App for Image Encryption and Decryption made in **Django**.\n - Uses **SDES** algorithm for encryption/decryption.",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/img-encrypt-sdes"
+                    "href": "https://github.com/ArunKls/AppWall"
                 }
             ],
             "tags" : [
                 "Python",
                 "Django",
-                "SDES",
+                "Machine Learning",
                 "Cryptography"
             ]
         }
