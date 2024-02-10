@@ -23,7 +23,7 @@
             ]
         },
         {
-            "image" : "images/projects/quiet-hours-poster.jpg",
+            "image" : "images/projects/ethicate-poster.jpeg",
             "title": "Ethicate - Issue blockchain secured certificates",
             "bodyText": "- **Web3** based blockchain application for education institutions and employers to issue secure and immutable digital certificates.\n - Developed using **Ethereum**, **Python**, **Flask**",
             "links": [
